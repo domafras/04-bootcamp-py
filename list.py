@@ -14,3 +14,8 @@ print(produtos)
 produtos.pop()
 
 print(produtos)
+
+# exemplo de extend / diferença para append
+# numeros = []
+# numeros.extend(range(0,5))
+# print(numeros)
