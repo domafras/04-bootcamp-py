@@ -1,3 +1,4 @@
+from typing import Dict
 import json
 
 # exemplo lista para produto
@@ -24,5 +25,7 @@ carrinho.append(produto_2)
 
 print(carrinho)
 
+# exemplo transformação json 
+# (diff: False -> "false", '' -> "")
 carrinho_json = json.dumps(carrinho)
 print(carrinho_json)
